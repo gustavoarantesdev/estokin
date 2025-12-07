@@ -1,5 +1,5 @@
 <div class="absolute bottom-0 z-50 w-full rounded-lg border-t border-gray-300 bg-gray-50">
-    <div class="flex h-20 items-center justify-center space-x-3 lg:space-x-5 md:space-x-4">
+    <div class="flex h-20 items-center justify-center space-x-3 md:space-x-4 lg:space-x-5">
         <a
             class="{{ request()->routeIs('dashboard') ? 'font-medium text-violet-500' : '' }} ease flex flex-col items-center justify-center rounded-lg p-2 text-gray-500 transition duration-200 hover:bg-gray-100 hover:text-violet-500"
             href="{{ route('dashboard') }}"
@@ -20,8 +20,8 @@
             <x-icons.plus />
         </button>
         <a
-            class="{{ request()->routeIs('estoque') ? 'font-medium text-violet-500' : '' }} ease flex flex-col items-center justify-center rounded-lg p-2 text-gray-500 transition duration-200 hover:bg-gray-100 hover:text-violet-500"
-            href="#"
+            class="{{ request()->routeIs('produto.*') ? 'font-medium text-violet-500' : '' }} ease flex flex-col items-center justify-center rounded-lg p-2 text-gray-500 transition duration-200 hover:bg-gray-100 hover:text-violet-500"
+            href="{{ route('produto.index') }}"
         >
             <x-icons.packageSearch />
             Produtos
