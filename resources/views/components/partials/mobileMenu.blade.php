@@ -70,11 +70,15 @@
                 </ul>
 
 
-                {{-- Seta do Dropdown  --}}
+                {{-- Seta do Dropdown (borda maior) --}}
                 <div
-                    class="border-l-16 border-r-16 border-t-16 absolute left-1/2 top-full h-0 w-0 -translate-x-1/2 border-l-transparent border-r-transparent border-t-gray-200">
+                    class="border-l-10 border-r-10 border-t-10 absolute left-1/2 top-full h-0 w-0 -translate-x-1/2 border-l-transparent border-r-transparent border-t-gray-200">
                 </div>
-            </div>
+
+                {{-- Seta do Dropdown (principal) --}}
+                <div
+                    class="absolute left-1/2 top-full h-0 w-0 -translate-x-1/2 border-l-8 border-r-8 border-t-8 border-l-transparent border-r-transparent border-t-gray-50">
+                </div>
         </li>
 
         <li>
