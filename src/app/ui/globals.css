@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+.my-transition {
+  @apply transition duration-200;
+}
+
+.my-input {
+  @apply rounded-xl border border-slate-300 bg-slate-50 p-3 shadow-sm hover:border-purple-300 focus:border-purple-500
+focus:outline-none focus:ring-2 focus:ring-purple-500/50;
+}
