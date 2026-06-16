@@ -14,22 +14,29 @@ export default function Page() {
 
         <div>
           <table className="w-full">
-            <tr className="border-t border-slate-300">
-              <td className="pt-2 pb-2 pl-4 text-slate-500">Produto</td>
-              <td className="pt-2 pr-4 pb-2">Exemplo</td>
-            </tr>
-            <tr className="border-t border-slate-300">
-              <td className="pt-2 pb-2 pl-4 text-slate-500">Quantidade</td>
-              <td className="pt-2 pr-4 pb-2">Exemplo</td>
-            </tr>
-            <tr className="border-t border-slate-300">
-              <td className="pt-2 pb-2 pl-4 text-slate-500">Preço de venda</td>
-              <td className="pt-2 pr-4 pb-2">Exemplo</td>
-            </tr>
-            <tr className="border-t border-slate-300">
-              <td className="pt-2 pb-2 pl-4 text-slate-500">Status</td>
-              <td className="pt-2 pr-4 pb-2">Exemplo</td>
-            </tr>
+            <tbody>
+              <tr className="border-t border-slate-300">
+                <td className="pt-2 pb-2 pl-4 text-slate-500">Produto</td>
+                <td className="pt-2 pr-4 pb-2">Exemplo</td>
+              </tr>
+
+              <tr className="border-t border-slate-300">
+                <td className="pt-2 pb-2 pl-4 text-slate-500">Quantidade</td>
+                <td className="pt-2 pr-4 pb-2">Exemplo</td>
+              </tr>
+
+              <tr className="border-t border-slate-300">
+                <td className="pt-2 pb-2 pl-4 text-slate-500">
+                  Preço de venda
+                </td>
+                <td className="pt-2 pr-4 pb-2">Exemplo</td>
+              </tr>
+
+              <tr className="border-t border-slate-300">
+                <td className="pt-2 pb-2 pl-4 text-slate-500">Status</td>
+                <td className="pt-2 pr-4 pb-2">Exemplo</td>
+              </tr>
+            </tbody>
           </table>
         </div>
       </div>
