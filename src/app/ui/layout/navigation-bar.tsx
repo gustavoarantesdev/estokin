@@ -60,10 +60,10 @@ export function NavigationBar() {
 
           <div
             className={clsx(
-              "absolute bottom-full z-50 mb-8 w-64 rounded-xl border border-gray-200 bg-gray-50 p-4 transition-all duration-200 ease-out",
+              "absolute bottom-full z-50 mb-8 w-64 rounded-xl border border-slate-200 bg-slate-50 p-4 transition-all duration-200 ease-out",
               openDropdown
-                ? "opacity-100 translate-y-0 pointer-events-auto"
-                : "opacity-0 translate-y-8 pointer-events-none",
+                ? "pointer-events-auto translate-y-0 opacity-100"
+                : "pointer-events-none translate-y-8 opacity-0",
             )}
           >
             <ul>

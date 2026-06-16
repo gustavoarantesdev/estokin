@@ -19,7 +19,7 @@ export default function RootLayout({
       <body className="flex h-dvh items-center justify-center">
         <main className="h-dvh w-full bg-slate-50 p-2 shadow-lg sm:max-w-lg">
           {/* Header */}
-          <div className="relative flex h-full flex-col rounded-xl border border-gray-300 bg-white shadow-md">
+          <div className="relative flex h-full flex-col rounded-xl border border-slate-300 bg-white shadow-md">
             <div className="shrink-0">
               <EstokinLogo />
               <hr className="text-slate-300"></hr>
