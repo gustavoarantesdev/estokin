@@ -16,17 +16,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" className={`${inter.className} h-full antialiased`}>
-      <body className="flex justify-center items-center p-4 h-screen">
-        <main className="bg-slate-50 shadow-lg p-4 w-full sm:max-w-lg h-screen">
+      <body className="flex h-dvh items-center justify-center">
+        <main className="h-dvh w-full bg-slate-50 p-2 shadow-lg sm:max-w-lg">
           {/* Header */}
-          <div className="relative flex flex-col bg-white shadow-md border border-gray-300 rounded-xl h-full">
+          <div className="relative flex h-full flex-col rounded-xl border border-gray-300 bg-white shadow-md">
             <div className="shrink-0">
               <EstokinLogo />
               <hr className="text-slate-300"></hr>
             </div>
 
             {/* Content */}
-            <div className="flex-1 p-4 pb-28 overflow-auto scroll-smooth">
+            <div className="flex-1 overflow-auto scroll-smooth p-4 pb-28">
               {children}
             </div>
 
